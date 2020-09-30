@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 50px;
+  width: 1500px;
+  padding: 20px;
+  border: 2px solid #b2b2b2;
+  border-radius: 15px;
+}
+
+.box {
+  margin: 40px 0 40px 0;
+}
+
+table {
+  font-family: arial, sans-serif;
+  /* border-collapse: collapse; */
+  width: 100%;
+}
+
+td,
+th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width: 200px;
+}
+
+th {
+  background-color: azure;
+}
+
+
+input {
+  padding: 10px;
+  border-style: hidden;
+  background-color: #eee;
+}
+
+input:focus {
+  outline: none;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.fl-right {
+  float: right;
+}
